@@ -3,7 +3,8 @@ $this->layout('shared/base');
 $vaultDSN = getenv("vaultDSN", true);
 $vaultUser = getenv("vaultUser",true);
 $vaultPass = getenv("vaultPass", true);
-$pdo = new PDO($dsn, $vaultUser, $vaultPass);
+
+$pdo = new PDO($vaultDSN, $vaultUser, $vaultPass);
 $statement = $pdo->query("SELECT player_uuid, player_name, money FROM eco_accounts ORDER BY `eco_accounts`.`money` DESC");
 $row = $statement->fetchAll(PDO::FETCH_ASSOC);
 ?>
@@ -28,7 +29,7 @@ $row = $statement->fetchAll(PDO::FETCH_ASSOC);
                     <th scope="col"><?php echo $row[$index]['money']?></th>
                 </tr>
                 <?php
-                    $index++; $counter++;
+                    $index++; 
                     endforeach;
                 ?>
             </table>

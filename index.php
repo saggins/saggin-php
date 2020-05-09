@@ -5,7 +5,7 @@
     use Slim\Factory\AppFactory;
     $app = AppFactory::create();
     $app->addRoutingMiddleware();
-    $templates = new Engine('/home/saggins/sagg.in-php/templates');
+    $templates = new Engine(__DIR__ . '/templates');
     $app ->get('/', function ($request, $response, $args){
         global $templates;
         $html = $templates->render('page');
