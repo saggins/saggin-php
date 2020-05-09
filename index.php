@@ -1,6 +1,6 @@
 <?php
     namespace SaggWeb;
-    require 'vendor/autoload.php';
+    require __DIR__ . '/vendor/autoload.php';
     use League\Plates\Engine as Engine;
     use Slim\Factory\AppFactory;
     $app = AppFactory::create();
