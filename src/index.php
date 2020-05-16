@@ -1,7 +1,7 @@
 <?php
     namespace SaggWeb;
-    require __DIR__ . '/vendor/autoload.php';
-    require  __DIR__ . '/src/database.php';
+    require __DIR__ . '/../vendor/autoload.php';
+    require  __DIR__ . '/../src/database.php';
     use League\Plates\Engine as Engine;
     use Slim\Factory\AppFactory;
 
