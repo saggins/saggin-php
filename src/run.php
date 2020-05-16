@@ -3,6 +3,7 @@
 include __DIR__.'/../vendor/autoload.php';
 $discord = new \Discord\Discord([
     'token' => getenv("discordToken", true),
+    'prefix' =>'!',
 ]);
 
 $discord->on('ready', function ($discord) {
@@ -15,6 +16,7 @@ $discord->on('ready', function ($discord) {
 
 $discord->registerCommand('ping', function ($message) {
     return 'pong!';
+    echo 'yo';
   }, [
     'description' => 'pong!',
   ]);
