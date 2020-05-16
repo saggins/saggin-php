@@ -1,2 +1,2 @@
-worker: touch file
+worker: php /src/run.php
 web: vendor/bin/heroku-php-apache2 /public
