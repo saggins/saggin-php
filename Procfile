@@ -1,2 +1,2 @@
-worker: php /src/run.php
+worker: php src/run.php
 web: vendor/bin/heroku-php-apache2 /public
