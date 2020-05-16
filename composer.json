@@ -2,6 +2,7 @@
     "require": {
         "league/plates": "^3.3",
         "slim/slim": "4.*",
-        "slim/psr7": "^1.1"
+        "slim/psr7": "^1.1",
+        "xpaw/php-minecraft-query": "^4.0"
     }
 }
