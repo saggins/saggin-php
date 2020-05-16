@@ -34,7 +34,15 @@ $row = vault();
                     </tr>
                 </table>
             </div>
-            
+            <div class="col align-self-end">
+                <table>
+                    <tr>
+                        <th scope="col">Player</th>
+                        <th scope="col">Total Price</th>
+                        <th scope="col">Buy/Sell</th>
+                    </tr>
+                </table>
+            </div>
         </div>
     </body>
 </html>
