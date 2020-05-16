@@ -13,5 +13,11 @@ $discord->on('ready', function ($discord) {
     });
 });
 
+$discord->registerCommand('ping', function ($message) {
+    return 'pong!';
+  }, [
+    'description' => 'pong!',
+  ]);
+
 $discord->run();
 ?>
