@@ -1,0 +1,3 @@
+[submodule "saggin-bot"]
+	path = saggin-bot
+	url = https://github.com/saggins/saggin-bot.git
