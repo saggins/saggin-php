@@ -5,7 +5,7 @@ $row = vault();
 ?>
 <html>
     <head>
-    <script src="/public/vault.js"></script>
+    <script src="/vault.js"></script>
     </head>
     <body>
         <div class="container row">
