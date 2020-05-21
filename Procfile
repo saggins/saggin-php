@@ -1,2 +1,2 @@
-worker: ./saggin-bot/main
+worker: ./main
 web: vendor/bin/heroku-php-apache2 /public
