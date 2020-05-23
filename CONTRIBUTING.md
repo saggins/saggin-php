@@ -1,5 +1,5 @@
 # How to contribute
-Hey thanks for condiering contriubiting. Hopfully we'll be able to document all of mc.sagg.in
+Hey thanks for considering contriubiting. Hopfully we'll be able to document all of mc.sagg.in
 
 # Getting Started
 
