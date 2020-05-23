@@ -20,10 +20,10 @@ Conists of three levels:
 - Lobby
 
 # Rails
-The rails is the very top floor of the bulding. It hosts 4 rails and serves as a hub.
+The rails are on the very top floor of the bulding. It hosts 4 rails and serves as a hub.
 
 # Portal
-They're three portals on this floor
+There are three portals on this floor
 * Nether (2)
 * One HUB Portal
 
