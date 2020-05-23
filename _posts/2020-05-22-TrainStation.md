@@ -10,7 +10,7 @@ categories:
 In the center of the spawn village!
 
 # Images:
-![Tower Image](/assets/Tower.png)
+![Tower Image](../assets/Tower.png)
 # Description:
 This humble structure was once a huge tower. It was lit on fire by a stray lightning and proceeded to burn down.
 It still serves as the main train station for all of the server.
