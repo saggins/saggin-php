@@ -7,6 +7,8 @@ Hey thanks for considering contriubiting. Hopfully we'll be able to document all
  * Fork this repo on Github.com
  * then clone this repo:
     `git clone github.com/your-username/saggin-php.git`
+ * Enter the repo:
+    `cd saggin-php`
  * Checkout to this branch:
     `git checkout gh-pages`
  * then start making changes!
