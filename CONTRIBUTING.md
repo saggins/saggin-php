@@ -18,5 +18,6 @@ Hey thanks for condiering contriubiting. Hopfully we'll be able to document all 
 
 # Finishing Up.
 
- * Stage/Commit all your changes. git commit -m "ADD BUILD NAME HERE" -a
+ * Stage/Commit all your changes:
+    `git commit -m "ADD BUILD NAME HERE" -a`
  * After Checking everything, PUSH! git push
