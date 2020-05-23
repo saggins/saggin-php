@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is the Sagg.in Minecraft Server Blog.
   You'll find only the most medicore attempts for builds here!
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "saggin-php" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sagginsz
 github_username:  Saggins
