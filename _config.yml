@@ -31,7 +31,7 @@ github_username:  Saggins
 mcip: mc.sagg.in
 
 # Build settings
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
