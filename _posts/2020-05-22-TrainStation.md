@@ -18,12 +18,15 @@ Conists of three levels:
 - Rails
 - Portal
 - Lobby
+
 # Rails
 The rails is the very top floor of the bulding. It hosts 4 rails and serves as a hub.
+
 # Portal
 They're three portals on this floor
 * Nether (2)
 * One HUB Portal
+
 # Who Built?
 * Saggins
 * JDXMaster
