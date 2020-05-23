@@ -22,4 +22,5 @@ Hey thanks for considering contriubiting. Hopfully we'll be able to document all
 
  * Stage/Commit all your changes:
     `git commit -m "ADD BUILD NAME HERE" -a`
- * After Checking everything, PUSH! git push
+ * After Checking everything, PUSH! git 
+ * Finally make a pull request
