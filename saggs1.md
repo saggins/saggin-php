@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Season1
 permalink: /season1/
 ---
