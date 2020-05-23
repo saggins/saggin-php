@@ -13,3 +13,8 @@ Hey thanks for condiering contriubiting. Hopfully we'll be able to document all 
  * create a file called, YEAR-MONTH-DATE-NAME.md in the _posts folder
  * make sure to use the example post in _posts folder
  * You can use a mark down editor like, [this](https://stackedit.io/app) to help
+
+# Finishing Up.
+
+ * Stage/Commit all your changes. git commit -m "ADD BUILD NAME HERE" -a
+ * After Checking everything, PUSH! git push
