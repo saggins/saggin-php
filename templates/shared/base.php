@@ -12,6 +12,9 @@
                     <a class="dropdown-item" href="/mc/econ/rich">Economy</a>
                 </div>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/privacy">Privacy Policy</a>
+            </li>
         </ul>
     </nav>
 <?=$this->section('content')?>
