@@ -1,7 +1,6 @@
 <?php
 use function database\vault;
 $this->layout('shared/base');
-$row = vault();
 ?>
 <h1>Privacy Policy of Sagg.in</h1>
 

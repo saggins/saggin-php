@@ -30,5 +30,11 @@ $app = AppFactory::create();
         ->withHeader('Content-Type', 'application/json')
         ->withStatus(201);
     });
+    $app -> get('/privacy', function ($request, $response, $args){
+        global $templates;
+        $html = $templates->render('privacy');
+        $response->getBody()->write($html);
+        return $response;
+    });
     $app->run();
 ?>
