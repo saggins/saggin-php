@@ -1,5 +1,4 @@
 <?php
-use function database\vault;
 $this->layout('shared/base');
 ?>
 <h1>Privacy Policy of Sagg.in</h1>
