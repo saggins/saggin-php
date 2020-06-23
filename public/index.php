@@ -41,5 +41,11 @@ $app = AppFactory::create();
         $response->getBody()->write($html);
         return $response;
     });
+    $app -> get('/goauth', function ($request, $response, $args){
+        global $templates;
+        $html = $templates->render('goauth');
+        $response->getBody()->write($html);
+        return $response;
+    });
     $app->run();
 ?>
