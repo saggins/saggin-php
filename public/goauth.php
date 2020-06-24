@@ -3,8 +3,8 @@
 require_once __DIR__ . '/../vendor/autoload.php';  
 // create Client Request to access Google API
 $client = new Google_Client();
-//$client->setAuthConfig('../google-credentials.json');
-$client->useApplicationDefaultCredentials();
+$client->setAuthConfig('../google-credentials.json');
+//$client->useApplicationDefaultCredentials();
 $client->addScope("email");
 $client->addScope("profile");
 $client->addScope("openid");
