@@ -1,0 +1,31 @@
+<?php
+
+require __DIR__ . '/database.php'; 
+class WebApp extends Database{
+
+    public $openid;
+    function __construct($userinfo){
+        $this->openid = $userinfo["openid"];
+        $this->email = $userinfo["email"];
+        $this->name = $userinfo["name"];
+        $this->mcuser = $userinfo["mcuser"];
+        $subj = "web";
+        parent::__construct($subj);
+    }
+
+    //Needs Email, User, Openid, McUsername
+    function registerUser(){
+        
+    }
+
+    function checkPublicUser(){
+        $statement = $pdo->query("SELECT openid FROM Users WHERE openid=?", $this->openid);
+        $row = $statement->fetchAll(PDO::FETCH_ASSOC);
+        if ($row || !empty($row) ){
+            return true;
+        } else {
+            return false;
+        }
+    }
+}
+?>
